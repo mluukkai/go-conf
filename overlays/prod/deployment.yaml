@@ -11,4 +11,4 @@ spec:
           image: IMAGE
           env:
             - name: ENV
-              value: "staging"
+              value: "production"
