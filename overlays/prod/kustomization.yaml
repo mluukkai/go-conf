@@ -8,6 +8,6 @@ namespace: myapp-prod
 images:
 - name: IMAGE
   newName: mluukkai/pock
-  newTag: "1"
+  newTag: 50e31744d3c7b344eb784eed94eaf19a77ffd314
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
