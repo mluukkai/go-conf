@@ -1,0 +1,10 @@
+resources:
+- ./../../base
+patches:
+  - path: deployment.yaml
+
+namespace: myapp-prod
+
+images:
+  - name: IMAGE
+    newName: mluukkai/pock:1

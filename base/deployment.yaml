@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    spec:
+      containers:
+        - name: myapp
+          image: IMAGE
+          env:
+            - name: ENV
+              value: "production"
